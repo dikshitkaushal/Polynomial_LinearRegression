@@ -29,3 +29,6 @@ plt.title('Truth Or Bluff (decision Tree)')
 plt.xlabel('position level ')
 plt.ylabel('salaries')
 plt.show()
+
+#predicting a new result 
+y_pred=regressor.predict([[6.5]])
