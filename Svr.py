@@ -41,6 +41,3 @@ plt.show()
     
 """AND WE CAN'T ENTER THE VALUE DIRECTLT SO WE NEED TO SCALE IT FIRST"""
 y_pred=sc_y.inverse_transform(regressor.predict(sc_x.transform(np.array([[6.5]]))))
-
-
-
